@@ -1,0 +1,23 @@
+{
+    "name": "thera/frame",
+    "description": "un framework incroyable",
+    "type": "projet",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daouda S. THERA",
+            "email": "ddthera@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "thera\\entity\\": "src/entity/",
+            "thera\\controller\\": "src/controller/",
+            "thera\\config\\": "config/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "symfony/var-dumper": "^5.0"
+    }
+}
