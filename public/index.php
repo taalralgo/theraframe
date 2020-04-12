@@ -5,9 +5,10 @@ use thera\config\App;
 
 $uri = $_SERVER['REQUEST_URI'];
 
-// dd($uri[0]);
+
+// dd($uri);    
 
 
 $app = new App();
 
-$app->run();
+$app->run($uri);

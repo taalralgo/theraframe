@@ -2,13 +2,26 @@
 namespace thera\config;
 
 use thera\controller\BlogController;
+use thera\controller\HomeController;
 
 class App
 {
-    public function run()
+    public function run($uri)
     {
-        $blog = new BlogController();
-        // $this->twig->render('base.html.twig');
-        $blog->index();
+        switch ($uri) {
+            case '/':
+                $home = new HomeController();
+                $home->index();
+                break;
+            
+            default:
+                # code...
+                break;
+        }
+        if($uri === '/blog')
+        {
+            $blog = new BlogController();
+            $blog->index();
+        }
     }
 }

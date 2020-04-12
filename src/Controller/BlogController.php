@@ -9,12 +9,6 @@ use thera\config\Twig;
  */
 class BlogController extends Twig
 {
-
-    
-    public function __construct()
-    {
-        parent::__construct();
-    }
     
     /**
      * @return void
