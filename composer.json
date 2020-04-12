@@ -17,7 +17,8 @@
         }
     },
     "require": {
-        "twig/twig": "^3.0"
+        "twig/twig": "^3.0",
+        "doctrine/orm": "^2.7"
     },
     "require-dev": {
         "symfony/var-dumper": "^5.0"

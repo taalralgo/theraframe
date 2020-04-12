@@ -1,3 +1,13 @@
 /**
 * Whrite your CSS here
 **/
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.topbar {
+    margin: 0 25%;
+    padding: 20px;
+}

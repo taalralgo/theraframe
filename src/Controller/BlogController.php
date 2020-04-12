@@ -15,7 +15,7 @@ class BlogController extends Twig
      */
     public function index()
     {
-        echo $this->twig->render('base.html.twig',[
+        echo $this->twig->render('blog/index.html.twig',[
             'nom' => 'THERA',
             'prenom' => 'Daouda S.'
         ]);
